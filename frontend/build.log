@@ -1,0 +1,130 @@
+[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+Application bundle generation failed. [1.221 seconds] - 2026-03-16T16:34:45.064Z
+
+X [ERROR] TS2307: Cannot find module '../../services/assignment.service' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:4:46:
+      4 Γöé ...mentService, Assignment } from '../../services/assignment.service';
+        Γò╡                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2571: Object is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:88:4:
+      88 Γöé     this.assignmentService.getAssignments().subscribe({
+         Γò╡     ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'data' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:89:13:
+      89 Γöé       next: (data) => this.assignments = data,
+         Γò╡              ~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:90:14:
+      90 Γöé       error: (err) => console.error(err)
+         Γò╡               ~~~
+
+
+X [ERROR] TS2571: Object is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:103:4:
+      103 Γöé     this.assignmentService.createAssignment(newAssignment).subscr...
+          Γò╡     ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'assignment' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:104:13:
+      104 Γöé       next: (assignment) => {
+          Γò╡              ~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:110:14:
+      110 Γöé       error: (err) => console.error(err)
+          Γò╡               ~~~
+
+
+X [ERROR] TS2571: Object is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:116:4:
+      116 Γöé     this.assignmentService.markComplete(assignment._id).subscribe({
+          Γò╡     ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'updated' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:117:13:
+      117 Γöé       next: (updated) => {
+          Γò╡              ~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:120:14:
+      120 Γöé       error: (err) => console.error(err)
+          Γò╡               ~~~
+
+
+X [ERROR] TS2571: Object is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:125:4:
+      125 Γöé     this.assignmentService.deleteAssignment(id).subscribe({
+          Γò╡     ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/dashboard/dashboard.component.ts:129:14:
+      129 Γöé       error: (err) => console.error(err)
+          Γò╡               ~~~
+
+
+X [ERROR] TS2307: Cannot find module '../../services/auth.service' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/pages/login/login.component.ts:5:28:
+      5 Γöé import { AuthService } from '../../services/auth.service';
+        Γò╡                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2571: Object is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/pages/login/login.component.ts:43:4:
+      43 Γöé     this.authService.login({ email: this.email, password: this.pas...
+         Γò╡     ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/login/login.component.ts:47:14:
+      47 Γöé       error: (err) => {
+         Γò╡               ~~~
+
+
+X [ERROR] TS2307: Cannot find module '../../services/auth.service' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/pages/register/register.component.ts:5:28:
+      5 Γöé import { AuthService } from '../../services/auth.service';
+        Γò╡                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2571: Object is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/pages/register/register.component.ts:43:4:
+      43 Γöé     this.authService.register({ email: this.email, password: this....
+         Γò╡     ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/pages/register/register.component.ts:47:14:
+      47 Γöé       error: (err) => {
+         Γò╡               ~~~
+
+
